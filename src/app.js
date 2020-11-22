@@ -50,7 +50,7 @@ window.onload = function () {
                                 let ind = participantNames.indexOf(shuffledNames[rand])
                                 participantNames.splice(ind, 1)
                             } else {
-                                alert('Raffle Draw Alreay Completed')
+                                alert('Raffle Draw Already Completed')
                             }
                         }
                     }, i)
@@ -60,11 +60,11 @@ window.onload = function () {
         }
     })
 
-    // TODO: Extract Text From Text Area and Store it to an Array
-    // TODO: Render The Names Extracted From Text Area
-    // TODO: Shuffle The Names Array for Better Result
-    // TODO: Pick A Random Winner, Remove Him/Her from The Names Array
-    // TODO: Display Winners Name
+    // 1st. TODO: Extract Text From Text Area and Store it to an Array
+    // 2nd. TODO: Render The Names Extracted From Text Area
+    // 3rd. TODO: Shuffle The Names Array for Better Result
+    // 4th. TODO: Pick A Random Winner, Remove Him/Her from The Names Array
+    // 5th. TODO: Display Winners Name
 }
 
 

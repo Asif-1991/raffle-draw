@@ -1,6 +1,6 @@
-const path = require('path')
-const htmlWebpackPlugin = require('html-webpack-plugin')
-require('babel-register')
+const path = require('path');
+const htmlWebpackPlugin = require('html-webpack-plugin');
+require('babel-register');
 
 module.exports = {
     entry: ['@babel/polyfill', './src/app.js'],
